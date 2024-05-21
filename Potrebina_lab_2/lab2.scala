@@ -23,19 +23,19 @@ class MultSet private (p: Int => Boolean) {
 val s1 = MultSet(3) // множество чисел : на 3
 val s2 = MultSet(5)
 
-println("5: " + s1.in(5))
-println("3: " + s1.in(3))
+println("Множество 5: " + s1.in(5))
+println("Множество 3: " + s1.in(3))
 println("--s1 + s2--")
 val a = s1 + s2
 println("---------------")
-println("3: " + a.in(3))
-println("4: " + a.in(4))
-println("5: " + a.in(5))
+println("Множество 3: " + a.in(3))
+println("Множество 4: " + a.in(4))
+println("Множество 5: " + a.in(5))
 println("--s1 * s2--")
 val m = s1 * s2
-println("3: " + m.in(3))
-println("5: " + m.in(5))
-println("15: " + m.in(15))
+println("Множество 3: " + m.in(3))
+println("Множество 5: " + m.in(5))
+println("Множество 15: " + m.in(15))
 
 
 
